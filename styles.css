@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #ff8f18;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: black;
+    margin: 20px 0px 0px;
+    height: 560px;
+    width: 400px;
+    border-radius: 25px;
+}
+
+.display {
+    background-color: #2f3236;
+    display: flex;
+    margin: 20px 20px 40px;
+    width: 360px;
+    height: 120px;
+    color: antiquewhite;
+    font-size: 50px;
+    justify-content: right;
+    align-items: end;
+}
+
+.buttons {
+    margin: 20px 32px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button {
+    border: 0.1px solid;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding: 6px 25px;
+    background-color: #1f2124;
+}
+
+.clear {
+    background-color: #07871e;
+}
+
+.operator {
+    background-color: #2b1dcc;
+}
+
+.set1,.set2,.set3,.set4,.set5{
+    margin-bottom: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+.set1 {
+    gap: 40px;
+}
+
+.plus{
+    padding: 5px 20px;
+    margin-left: -1px;
+}
+
+.minus{
+    padding: 5px 24px;
+}
+
+.multiply{
+    padding: 9px 23px;
+}
+
+.dot{
+    padding: 6px 30px;
+}
+
+.regular:hover {
+    background-color: #0f1417;
+}
+
+.clear:hover {
+    background-color: #026b25;
+}
+
+.operator:hover {
+    background-color: #160475;
+}
+
+.regular:active {
+    background-color: #0f1417;
+    box-shadow: 0 5px #0f0f0f;
+    transform: translateY(4px);
+}
+
+.clear:active {
+    background-color: #026b25;
+    box-shadow: 0 5px #0f0f0f;
+    transform: translateY(4px);
+}
+
+.operator:active {
+    background-color: #160475;
+    box-shadow: 0 5px #0f0f0f;
+    transform: translateY(4px);
+}
